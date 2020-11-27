@@ -64,6 +64,7 @@ These are the main routes you may want to use.
 | Home Page - You can post the data| http://localhost:3000/ |
 | New User has been created | http://localhost:3000/api/exercise/new-user |
 | New session has been created | http://localhost:3000/api/exercise/add |
+| Get all the users | http://localhost:3000/api/exercise/users|
 | Get user´s full exercises list| http://localhost:3000/api/exercise/log?userId=USER_ID |
 | Get user´s exercises list filtered *1| http://localhost:3000/api/exercise/log?userId=USER_ID&from=DATE1&to=DATE2&limit=LIMIT_OF_RESPONSES |
 
