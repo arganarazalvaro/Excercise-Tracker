@@ -36,7 +36,7 @@ This API uses MongoDB Atlas, so the database is on the cloud.
 Clone the repository and then start the server with:
 
 ```sh
-$ npm run dev
+$ npm start
 ```
 
 Please take a look at the dependencies that this API uses.
