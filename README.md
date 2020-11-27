@@ -20,6 +20,13 @@ This is an API that will help you keep track of each user exercise session.
   - Get all the information you need about any user´s exercise sessions, like description, duration, and date.
   - Search user exercise sessions by user id, you can also specify dates between which to search and limit the number of responses.
   - Search for all users.
+  
+  This is a welcome message from the developer of this API:
+
+> I hope you enjoy using this amazing API 
+> and I would love for you to tell me  
+> what projects you are working on.
+> Have fun!+
 
 ### Get Started
 
@@ -33,8 +40,6 @@ $ npm run dev
 ```
 
 Please take a look at the dependencies that this API uses.
-
-> I hope you enjoy it!
 
 ### Tech
 
