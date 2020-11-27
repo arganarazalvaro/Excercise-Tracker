@@ -3,6 +3,10 @@
 /* NOTE
 html is set to 62.5% so that all the REM measurements throughout Skeleton
 are based on 10px sizing. So basically 1.5rem = 15px :) */
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
 html {
   font-size: 62.5%;
   height: 100%;
@@ -69,7 +73,7 @@ input[type="button"] {
   padding: 0 30px;
   color: #555;
   text-align: center;
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 600;
   line-height: 38px;
   letter-spacing: .1rem;
@@ -128,6 +132,8 @@ input[type="url"],
 input[type="password"],
 textarea,
 select {
+  padding: 5x 5px;
+  width: 60%;
   height: 38px;
   padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
   background-color: #fff;
@@ -307,7 +313,7 @@ input[type="url"],
 input[type="password"],
 textarea,
 select {
-    background-color: #FCF0F2;
+    background-color: #FFF;
     border: 1px solid #babdb6;
     color: #1D1F20
 }
@@ -346,7 +352,6 @@ form{
   flex-direction: column;
   align-items: center;
   padding: 20px;
-  min-width: 500px;
   border-radius: 3px;
   background-color: #FCF0F2;
   color: #1D1F20
@@ -358,9 +363,94 @@ input[type='submit']{
 }
 
 input[type='text']{
-  min-width: 400px;
 }
 
 div,input,form {
   box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
+
+/*
+@media only screen and (min-width: 1024px) {
+  html {
+  font-size: 70%;
+}
+  h1{
+    font-size: 3.5rem;
+    color:red;
+  }
+  h3{
+    font-size: 3rem;
+  }
+}
+*/
+  #first-form{
+    height: 25vh;
+    width: 40vw;
+    margin: 0 0 2vh 0;
+    padding: 2px;
+    margin: 10px;
+  }
+  #second-form{
+    height: 45vh;
+    width: 40vw;
+    margin: 0 0 2vh 0;
+    margin: 10px;
+  }
+
+@media only screen and (max-width: 925px) and (min-width: 50px) {
+  html {
+  font-size: 100%;
+}
+  h1{
+    margin-top: 2vh;
+    font-size: 30px;
+  }  
+  #first-form{
+    height: 30vh;
+    width: 80vw;
+    margin: 0 0 2vh 0;
+    padding: 2px;
+    margin: 10px;
+  }
+  #second-form{
+    height: 60vh;
+    width: 80vw;
+    margin: 0 0 2vh 0;
+    margin: 10px;
+  }
+  input{
+    font-size: 15px;
+    padding: 2px;
+  }
+  .button,
+  button,
+  input[type="submit"],
+  input[type="reset"],
+  input[type="button"] {
+    height: 38px;
+    font-size: 15px;
+    }
+  input[type="email"],
+  input[type="number"],
+  input[type="search"],
+  input[type="text"],
+  input[type="tel"],
+  input[type="url"],
+  input[type="password"],
+  textarea,
+  select {
+    padding: 5x 5px;
+    width: 90%;
+    background-color: #fff;
+  }
+  h3{
+    font-size: 22px;
+  }
+  h4{
+    margin: 2vh 0;
+    font-size: 30px;
+  }
+  body{
+    font-size: 15px;
+  }
 }
