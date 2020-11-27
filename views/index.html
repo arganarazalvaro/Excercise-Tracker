@@ -2,7 +2,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Exercise Tracker | Free Code Camp</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise Tracker</title>
     <link
       rel="shortcut icon"
       href="https://nesh.gq/icon.png"
@@ -18,15 +19,15 @@
 
   <body>
     <h1><em>EXERCISE TRACKER</em></h1>
-    <form action="/api/exercise/new-user" method="post">
+    <form id="first-form" action="/api/exercise/new-user" method="post">
       <h3>Create a New User</h3>
       <input id="uname" type="text" name="username" placeholder="username" />
-      <input type="submit" value="Add" />
+      <input id="btn2" type="submit" value="Add" />
     </form>
     <h4>
       Or ...
     </h4>
-    <form action="/api/exercise/add" method="post">
+    <form id="second-form" action="/api/exercise/add" method="post">
       <h3>Add Exercise Session</h3>
       <input id="uid" type="text" name="userId" placeholder="userId*" />
       <input
@@ -42,7 +43,7 @@
         placeholder="duration* (mins.)"
       />
       <input id="dat" type="text" name="date" placeholder="date (yyyy-mm-dd)" />
-      <input type="submit" value="Add Session" />
+      <input id="btn2" type="submit" value="Add Session" />
     </form>
     <p>by <a href="https://arganarazalvaro.netlify.app/">Alvaro Argañaraz</a></p>
   </body>
