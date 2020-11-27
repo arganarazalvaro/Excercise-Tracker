@@ -26,7 +26,7 @@ This is an API that will help you keep track of each user exercise session.
 > I hope you enjoy using this amazing API 
 > and I would love for you to tell me  
 > what projects you are working on.
-> Have fun!+
+> Have fun!
 
 ### Get Started
 
